@@ -46,18 +46,17 @@ installers for all supported operating systems.
 2. Update and install:
 
    ```sh
-   sudo apt-get update
-   sudo apt-get install balena-etcher-electron
+   sudo apt update
+   sudo apt inpstall balena-etcher-electron
    ```
 
 ##### Uninstall
 
 ```sh
-sudo apt-get remove balena-etcher-electron
-rm /etc/apt/sources.list.d/balena-etcher.list
-apt-get clean
-rm -rf /var/lib/apt/lists/*
-apt-get update
+sudo apt remove balena-etcher-electron
+sudo rm /etc/apt/sources.list.d/balena-etcher.list
+sudo apt update
+sudo apt autoremove
 ```
 
 ##### OpenSUSE LEAP & Tumbleweed install
